@@ -43,5 +43,6 @@ def converter_temperatura(valor, de_escala, para_escala):
 
 
 print(converter_temperatura(32, "fahrenheit", "kelvin"))
-    
-
+print(converter_temperatura(32, "kelvin", "fahrenheit"))
+print(converter_temperatura(32, "celsius", "kelvin"))
+print(converter_temperatura(32, "kelvin", "celsius"))
